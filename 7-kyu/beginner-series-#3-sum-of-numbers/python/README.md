@@ -97,4 +97,12 @@ getsum(1, 1) == 1   # 1 Since both are same
 getsum(-1, 0) == -1 # -1 + 0 = -1
 getsum(-1, 2) == 2  # -1 + 0 + 1 + 2 = 2
 ```
+```prolog
+get_sum(1, 0, 1) % 1 + 0 = 1
+get_sum(1, 2, 3) % 1 + 2 = 3
+get_sum(0, 1, 3) % 0 + 1 = 1
+get_sum(1, 1, 1)  % 1 Since both are same
+get_sum(-1, 0, -1) % -1 + 0 = -1
+get_sum(-1, 2, 2) % -1 + 0 + 1 + 2 = 2
+```
 

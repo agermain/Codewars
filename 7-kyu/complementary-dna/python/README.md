@@ -94,3 +94,8 @@ dna_strand("GTAT")  // returns "CATA"
 dnastrand("ATTGC") # returns "TAACG"
 dnastrand("GTAT")  # returns "CATA"
 ```
+
+```prolog
+dna_strand("ATTGC") == "TAACG"
+dna_strand("GTAT") == "CATA"
+```
